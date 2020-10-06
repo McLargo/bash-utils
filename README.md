@@ -13,12 +13,12 @@ Give files innside the folder execution privileges with `chmod +x notification-o
 
 Use [cron guru](https://crontab.guru/) to get schedule expression
 
-In the sample, for `notification-off.sh` file, use `30 17 * * 1-5`
+In the sample, for `notification-off.sh` file, use `25 17 * * 1-5`
 
-In a more human way `At 17:30 on every day-of-week from Monday through Friday.`
+In a more human way `At 17:25 on every day-of-week from Monday through Friday.`
 
 Edit crontab with `crontab -e`
 
 Paste at the end new lines of your desire. First schedule expression, then, full path to script
 
-`30 17 * * 1-5 ~/.cronjobs/notification-off.sh`
+`25 17 * * 1-5 ~/.cronjobs/notification-off.sh`

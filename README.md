@@ -2,8 +2,11 @@
 
 Adding some bash utils to install in your laptop or also some snippets to help with some common fancy bash scripts
 
+#### Adding git hook to push after commit
 
+Run following command to automatically ask to push branch after commig
 
+`ln -s $ORIGIN_PATH/bash_utils/git_hooks/post-commit $DESTINATION_PATH/.git/hooks/post-commit`
 
 #### Adding a script to cronjob
 
